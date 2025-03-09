@@ -1,0 +1,22 @@
+name: "QThumbnail"
+author: "Mrx0rd"
+category: crypto
+description: |-
+
+Alice, unable to send qubits directly, encodes a picture into their shared entangled state (1/sqrt(2)) * (|00⟩ + |11⟩) by sharing her quantum operations, allowing Bob to reconstruct it on his quantum computer.
+
+   **author**: Mrx0rd
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - Securinets{Sup1r_Qub1t}
+#tags:
+#  - easy
+ files:
+   - handout/info.txt
+state: visible
+version: "0.1"
