@@ -1,0 +1,21 @@
+name: "eljmeilia 3tachaa"
+author: "Mrx0rd"
+category: crypto
+description: |-
+
+
+   **author**: Mrx0rd
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - Securinets{yee1_jmall111111}
+#tags:
+#  - easy
+ files:
+   - handout/3atchaan.py
+state: visible
+version: "0.1"
