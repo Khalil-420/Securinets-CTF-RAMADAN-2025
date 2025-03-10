@@ -1,0 +1,23 @@
+name: "the river's daughter"
+author: "SigmA4"
+category: pwn
+description: |-
+  slicker than water
+
+  
+
+  **author** SigmA4
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - Securinets{sh3_1s_th3_FL4G}
+#tags:
+#  - easy
+files:
+  - handout/challenge.zip
+state: visible
+version: "0.1"

@@ -1,0 +1,23 @@
+name: "Patrick Bateman"
+author: "SigmA4"
+category: pwn
+description: |-
+  you can always be thinner , look heaper
+
+  
+
+  **author** SigmA4
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - Securinets{H3AP_0VERFL0W_D3TECT3D}
+#tags:
+#  - easy
+files:
+  - handout/challenge.zip
+state: visible
+version: "0.1"
