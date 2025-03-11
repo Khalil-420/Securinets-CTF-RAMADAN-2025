@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FBI Secure Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('https://cache.desktopnexus.com/thumbseg/2259/2259770-bigthumbnail.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+        .login-container {
+            background: rgba(0, 0, 0, 0.8);
+            border: 1px solid #444;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            width: 100%;
+            max-width: 400px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .login-container h1 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #f2f2f2;
+        }
+        form input {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+        form input[type="submit"] {
+            background: #4caf50;
+            color: white;
+            cursor: pointer;
+        }
+        .footer {
+            margin-top: 10px;
+            font-size: 12px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h1>FBI Secure Login</h1>
+        <p>Authorized Personnel Only</p>
+        <form method="POST">
+            {{ form.hidden_tag() }}
+            {{ form.username.label }}
+            {{ form.username(class_="form-input") }}
+            {{ form.password.label }}
+            {{ form.password(class_="form-input") }}
+            {{ form.submit(class_="form-submit") }}
+        </form>
+        <div class="footer">
+            <p>Federal Bureau of Investigation | © {{ year }}</p>
+        </div>
+    </div>
+</body>
+</html>

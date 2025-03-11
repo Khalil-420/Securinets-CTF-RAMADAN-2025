@@ -1,0 +1,25 @@
+name: "murder case Report"
+author: "Glitch."
+category: osint
+description: |-
+  For the final challenge, you’ve been given a report.txt file with blanks to fill in. Complete the report by providing the suspect’s name, motive, key evidence, how the crime was committed,
+  and any other important findings. Every team have ONLY ONE attempt to submit your filled report.
+  Once completed, submit it through a ticket on Discord. No changes or resubmissions will be allowed. Good luck, detectives! 🕵️‍♂️
+  Points will be given after review
+  **author**: "Glitch."
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - Securinets{Azeqsdwxcgg99Azeqsdwxcgg99Azeqsdwxcgg99}
+
+#tags:
+#  - easy
+files:
+  - handout/report.txt
+
+state: visible
+version: "0.1"
