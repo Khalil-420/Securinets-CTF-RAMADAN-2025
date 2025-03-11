@@ -1,0 +1,23 @@
+name: "murder case v3"
+author: "Glitch."
+category: osint
+description: |-
+  "After opening the camera and finding this picture 📸, I'm sure something is missing in this case 🕵️‍♂️.
+  I will take fingerprints 🖐️ and figure out what's under this cover of the murder 🔍."
+
+  flag format : Securinets{fingerprints Belongs to}
+  **author**: "Glitch."
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - Securinets{William Hayes}
+#tags:
+#  - easy
+files:
+  - handout/task3.zip
+state: visible
+version: "0.1"

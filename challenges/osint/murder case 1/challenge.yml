@@ -1,0 +1,26 @@
+name: "murder case v1"
+author: "Glitch."
+category: osint
+description: |-
+  As the investigation begins, each step takes me closer to unraveling the hidden truths 🕵️‍♂️.
+  By carefully analyzing every clue 🔍, I will uncover the real story behind the challenge, piece by piece 📜.
+  Let the hunt for vulnerabilities begin!
+  city is password for location.zip
+  flag format : Securinets{name of city}
+  **author**: "Glitch."
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - Securinets{Detroit}
+  - Securinets{Détroit}
+#tags:
+#  - easy
+files:
+  - handout/task 1.zip
+  - handout/my sorty✔.txt
+state: visible
+version: "0.1"

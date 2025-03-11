@@ -1,0 +1,40 @@
+name: "murder case 4"
+author: "Akolix"
+category: osint
+description: |-
+  Detective,
+  Tick-tock. The clock is bleeding.
+  Suhhhhhh...
+  How many sleepless nights have you spent chasing shadows? How many dead ends have you hit, thinking you were getting closer?
+  Tatatata...
+  But you never were.
+  Ahahaha...
+  You think you know the truth about your daughter’s case—
+  You don’t.
+  Rip...
+  Buried in the depths of the web lies what you’ve been searching for… The missing piece. The part they never wanted you to find. But I did. And now, I’m giving you one chance.
+  Tatatata...
+  No tricks. No games. Just cold, brutal truth.s
+  Click the link below. Read everything. But once you do, there’s no turning back.
+  The truth is a monster, Detective. And tonight, it comes for you.
+
+  https://tor.link/uploads/67ce31145bcf3
+  
+  You have 24 hours. After that? The truth disappears forever. And so might she.
+  See you in the dark.
+  flag format : Securinets{Username,latitude,longitude}
+  **author**: Akolix
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - Securinets{ShadowBroker77,42.3396,-83.0490}
+#tags:
+#  - easy
+files:
+  - handout/IMG.rar
+state: visible
+version: "0.1"

@@ -1,0 +1,25 @@
+name: "murder case v2"
+author: "Glitch."
+category: osint
+description: |-
+  "I found a note in my phone 📱 from my daughter. I need to think about what the camera password could be 🤔. 
+  I'm sure I can figure it out, since I'm her father 👨‍👧."
+
+
+  "The flag is the series of the car 🚗: Hyundai 🚙."
+  flag format : Securinets{XXX XXXX}
+  **author**: "Glitch."
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - Securinets{DBZ 0513}
+#tags:
+#  - easy
+files:
+  - handout/handout.zip
+state: visible
+version: "0.1"
