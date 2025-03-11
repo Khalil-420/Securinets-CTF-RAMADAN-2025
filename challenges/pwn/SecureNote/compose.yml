@@ -1,0 +1,14 @@
+version: '3'
+services:
+  challenge:
+    container_name: SecureNote
+    build:
+      context: ./challenge
+      dockerfile: Dockerfile
+    ports:
+      - 12001:1333
+    read_only: true
+    cap_drop:
+      - all
+              
+    restart: on-failure

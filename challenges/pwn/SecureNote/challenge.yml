@@ -1,0 +1,23 @@
+name: "Secure Note"
+author: "hyzr"
+category: pwn
+description: |-
+  I made this special app to help me write and manage my notes during Ramadan. Feel free to use it too!.
+  nc <ip_address> 1333
+
+
+  **author**: hyzr
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - "Securinets{5e55ca04ae7c626c343ef448feddf80ae451c505c014c8897357ef5629c79589}"
+tags:
+  - medium
+files:
+  - handout/
+state: visible
+version: "0.1"
