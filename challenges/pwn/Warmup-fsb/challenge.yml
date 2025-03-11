@@ -1,0 +1,21 @@
+name: "Warmup"
+author: "hyzr"
+category: pwn
+description: |-
+  Zouz dourat al terrain yalla!
+
+  **author**: M0ud4
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - "Securinets{4ba212af96b04be1bf46b7a6ae73e66565b}"
+tags:
+  - easy
+files:
+  - handout/
+state: visible
+version: "0.1"

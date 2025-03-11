@@ -1,0 +1,21 @@
+name: "Streams"
+author: "hyzr"
+category: pwn
+description: |-
+  A file stream and a dream.
+
+  **author**: hyzr
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - "Securinets{f06204e7fa941196a67fe3114f7f44cda9d66ac26694a2be43847c70279b1c0c}"
+tags:
+  - medium
+files:
+  - handout/
+state: visible
+version: "0.1"

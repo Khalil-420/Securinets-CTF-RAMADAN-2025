@@ -1,0 +1,14 @@
+version: '3'
+services:
+  challenge:
+    container_name: Streams
+    build:
+      context: ./challenge
+      dockerfile: Dockerfile
+    ports:
+      - 12002:1335
+    read_only: true
+    cap_drop:
+      - all
+              
+    restart: on-failure
