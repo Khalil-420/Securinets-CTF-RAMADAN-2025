@@ -1,0 +1,21 @@
+name: "Warmup"
+author: "M0ud4"
+category: reverse
+description: |-
+  Let's warmup.
+
+  **author**: M0ud4
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - "Securinets{e92877d3c4128ccd1356b73a01d5f5244423ff257b2787313530d6f2c61f81de}"
+tags:
+  - easy
+files:
+  - handout/
+state: visible
+version: "0.1"
