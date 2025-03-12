@@ -2,15 +2,22 @@
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
+#include <stdint.h>
+
 
 typedef struct string {
-    unsigned length;
+    uint64_t length;
     char *data;
-} string;
+    void (*print_string) (char*);
+}string;
 
 void hacked() {
     
     system("/bin/sh");  
+}
+
+void print_string(char* s){
+    printf("%s", s);
 }
 
 int main() {
@@ -20,7 +27,7 @@ int main() {
         return 1;
     }
 
-    puts("welcome patrick ");
+    puts("welcome patrick give the string length: ");
     scanf("%u", &s->length);
 
     s->data = malloc(s->length + 1);
@@ -32,28 +39,23 @@ int main() {
 
     puts("Enter something");
     read(0, s->data, s->length);
-
+    s->print_string = print_string;
     free(s->data);  
     free(s);        
 
-    char *s2 = malloc(16);  
+    char *s2 = malloc(24);  
     if (s2 == NULL) {
         perror("malloc failed");
         return 1;
     }
-    memset(s2, 0, 16);
 
     puts("Enter more");
-    read(0, s2, 15);
+    read(0, s2, 24);
 
-    printf("well?\n");
-    s->data = (char*)hacked;  
-
-    puts("oh no");
-    puts(s->data);  
+    printf("well? this is your thing\n");
+    s->print_string(s->data);
 
     free(s2);
-
     return 0;
 }
 
