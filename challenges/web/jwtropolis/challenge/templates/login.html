@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.3/dist/tailwind.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+		<link rel="stylesheet" href="/static/style.css">
+		<link rel="stylesheet" href="/static/metronic.css">
+		<title>Document</title>
+	</head>
+	<body class="login" style="background-position: center center;background-image: url('/static/LOGIN_BG.jpg')">
+		<div class="form-signin">
+			<div>
+				<div class="text-center logo-wrapper mb-10">
+					<a href="">
+						<span class="home-logo">
+							<img alt="" border="0" height="89" hspace="0" src="https://edx.tek-up.de/media/image?i=202304-1/UQERjxJmWEcwXsTHLwlL8=nATv260qf-PTLrlID2.png" style="width:242px;height:89px;margin-top:0px;margin-bottom:0px;margin-left:0px;margin-right:0px;border:0px solid black;" vspace="0" width="242">
+						</span>
+					</a>
+				</div>
+				<div class="mb-5">
+					<h5 class="text-center font-weight-light text-light"></h5>
+				</div>
+				<div class="login-form">
+					<div id="login2" class="tab-pane active">
+						<form id="form" name="form" method="post" action="/login" enctype="multipart/form-data; charset=utf-8">
+							<div class="mb-5">
+								<h5 class="text-center font-weight-light text-light"> Veuillez saisir votre login et mot de passe</h5>
+							</div>
+							{% if error %}
+								<div id="loginMessages" class="bg-red-500 text-white text-center p-4 rounded mb-4">
+									<span>{{ error }}</span>
+									<button class="float-right" onclick="document.getElementById('loginMessages').style.display='none'; return false;">
+										<span class="pi pi-times">X</span>
+									</button>
+								</div>
+							{% endif %}
+							<div id="j_idt70" class="ui-outputpanel ui-widget sge-inline-msg">
+								<div id="loginMessages"></div>
+							</div>
+							<div class="input-group mb-2">
+								<div class="input-group-prepend">
+									<span class="input-group-text">
+										<i class="fas fa-user"></i>
+									</span>
+								</div>
+								<input id="username" name="username" type="text" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all form-control form-control-lg ui-state-filled" aria-required="true" placeholder="Identifiant" role="textbox" aria-readonly="false" aria-disabled="false">
+							</div>
+							<div class="input-group mb-2" style="flex-wrap: nowrap;">
+								<div class="input-group-prepend">
+									<span class="input-group-text" id="password-addon2">
+										<i class="fas fa-lock"></i>
+									</span>
+								</div>
+								<span class="ui-password ui-password-masked ui-inputwrapper ui-input-icon-right ui-inputwrapper-filled">
+									<input id="password" name="password" type="password" class="ui-inputfield ui-widget ui-state-default ui-corner-all form-control form-control-lg ui-state-filled" aria-required="true" placeholder="Mot de passe" aria-disabled="false">
+									<i id="password_mask" class="ui-password-icon"></i>
+								</span>
+							</div>
+							<div class="input-group mb-2">
+								<div class="input-group-prepend">
+									<span class="input-group-text">
+										<i class="fas fa-key"></i>
+									</span>
+								</div>
+								<input id="otp" name="otp" type="text" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all form-control form-control-lg ui-state-filled" placeholder="Code OTP (Optional)">
+							</div>
+							
+							<button id="loginstep1" name="loginstep1" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only btn btn-lg btn-primary btn-block" label="Mot de passe" type="submit" role="button" aria-disabled="false">
+								<span class="ui-button-text ui-c">Se connecter</span>
+							</button>
+							<div id="captchaPanel" class="ui-outputpanel ui-widget"></div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

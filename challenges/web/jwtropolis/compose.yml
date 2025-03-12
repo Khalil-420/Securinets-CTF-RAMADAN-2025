@@ -1,0 +1,12 @@
+version: '3'
+services:
+  challenge:
+    container_name: jwt_tropolis
+    restart: unless-stopped
+    build:
+      context: ./challenge
+      dockerfile: Dockerfile
+      environment:
+      - FLAG=Securinets{JWT_juGGliNg_w1th_T0TP_m4st3ry!}
+    ports:
+      - "9100:5000"

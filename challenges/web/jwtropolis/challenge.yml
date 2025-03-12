@@ -1,0 +1,23 @@
+name: "JWTropolis"
+author: "KonaN"
+category: web
+description: |-
+  In the heart of authentication, JWTs hold the key to access. But with great power comes great responsibility—especially when TOTP is thrown into the mix. Can you manipulate the system and prove you're an admin to reveal the flag?
+
+  Link :
+
+   **author**: KonaN
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - Securinets{JWT_juGGliNg_w1th_T0TP_m4st3ry!}
+#tags:
+#  - easy
+files:
+  - handout/challenge.zip
+state: visible
+version: "0.1"
