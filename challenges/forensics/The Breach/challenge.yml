@@ -1,0 +1,27 @@
+	name: "The Breach"
+author: "cybereagle2001"
+category: forensics
+description: |-
+	As a cybersecurity analyst at IMEDRA SPHERE, 
+	you’ve been alerted to unusual network activity. 
+	Some machines inside the company network has been compromised.
+	Logs show scanning, exploitation, and malware communication 
+	As a forensics investigator you need to help us solve the crime ! 
+  
+  	nc 51.77.140.155 11003
+  
+  	**author**: cybereagle2001
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - Securinets{Th1s_1s_N3tw0rk_An4lys1s}
+#tags:
+#  - easy
+files:
+  - handout/challenge.pcapng
+state: visible
+version: "0.1"

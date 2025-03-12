@@ -1,0 +1,9 @@
+version: '3'
+services:
+  challenge:
+    container_name: the-breach-challenge
+    build:
+      context: ./challenge
+      dockerfile: Dockerfile
+    ports:
+      - 11003:11002

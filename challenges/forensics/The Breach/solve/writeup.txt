@@ -1,0 +1,18 @@
+what is the date of the attack : Wed, 05 Mar 2025
+First Victim IP and Mac Address : 192.168.110.135 -> 00:0c:29:a7:68:2e
+First Victim Hostname: WIN-PIF43K5LIED
+ping duration : result of ( 97.918068884 - 93.81658597)
+hacker IP address : 192.168.110.128
+Hacker Machine hostname: kali
+the hackers internet certificate serialNumber: 03836f556311c3d89976bb342fa0dd3d262c (FROM 54844)
+tool used in the scaning + Number of packet identifying it : nmap_46897
+vulnerable Web Server IP : 192.168.110.136
+Vulnerable Web Server Hostname: VICTIME
+what is the web server version : Apache/2.2.11
+what is the vulnerable web application : Moodle
+what is the session token : gq9e9ks4gd4tvfhg63keg78qj6
+what is the admin password : SeCrEt
+what method did the hacker use : Bruteforce 
+what tool did the hacker use : burpsuite
+victim email address : jpyche@live.fr
+
