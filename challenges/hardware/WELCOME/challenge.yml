@@ -1,0 +1,21 @@
+name: "WELCOME"
+author: "HAMZAOUI"
+category: hardware
+description: |-
+  go for it!
+  
+  **author**: HAMZAOUI
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - Securinets{U4RT_4W3S0M3}
+#tags:
+#  - easy
+files:
+  - 4rt.lac
+state: visible
+version: "0.1"

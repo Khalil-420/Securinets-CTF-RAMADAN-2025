@@ -1,0 +1,21 @@
+name: "Lazer Maze"
+author: "HAMZAOUI"
+category: hardware
+description: |-
+  Can you find and bypass my rules? You don’t need to brute-force them!
+  
+  **author**: HAMZAOUI
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - Securinets{BLU3T00TH_1S_N0T_S3CUR3}
+#tags:
+#  - easy
+files:
+  - tools/tools.rar
+state: visible
+version: "0.1"
