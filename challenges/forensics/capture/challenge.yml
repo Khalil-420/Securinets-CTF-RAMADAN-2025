@@ -1,0 +1,21 @@
+name: "Tajin b sebnekh"
+author: "xhalyl - AL1_D0X"
+category: forensics
+description: |-
+  Goum tsa7er!
+  
+  **author**: xhalyl - AL1_D0X
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - Securinets{Y0u_S4avEd_yoUr_F1le5}
+#tags:
+#  - easy
+files:
+  - handout/challenge.pcap
+state: visible
+version: "0.1"
