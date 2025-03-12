@@ -1,0 +1,21 @@
+name: "OriginalChecker"
+author: "M0ud4"
+category: reverse
+description: |-
+  Can you try and defeat my very Original Checker.
+
+  **author**: M0ud4
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - "Securinets{damn_z3_Goesss_brrrrrr_gg}"
+tags:
+  - easy
+files:
+  - handout/
+state: visible
+version: "0.1"
