@@ -2,7 +2,7 @@ name: "tirarara"
 author: "Mrx0rd"
 category: crypto
 description: |-
- elcheb hasni v3
+  elcheb hasni v3
 
 
    **author**: CYBORG
@@ -15,8 +15,8 @@ extra:
 flags:
   - Securinets{Une_g8on_8omerciment}
 #tags:
-  - easy
- files:
-   - handout/tirarara.png
+#  - easy
+files:
+  - handout/tirarara.png
 state: visible
 version: "0.1"

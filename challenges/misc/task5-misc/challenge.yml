@@ -2,9 +2,9 @@ name: "Freemasonry"
 author: "Mrx0rd"
 category: misc
 description: |-
-It looks like a beautiful and wonderful place with noble goals, but ....
-The coordinates of the place can help solve this puzzle.
-Don't forget to take only two numbers after the comma
+  It looks like a beautiful and wonderful place with noble goals, but ....
+  The coordinates of the place can help solve this puzzle.
+  Don't forget to take only two numbers after the comma
 
 
    **author**: CYBORG
@@ -18,7 +18,7 @@ flags:
   - Securinets{KLAUS_SCHWAB_RED_DIVEL}
 #tags:
 # - easy
- files:
-   - handout/task.zip
+files:
+  - handout/task.zip
 state: visible
 version: "0.1"

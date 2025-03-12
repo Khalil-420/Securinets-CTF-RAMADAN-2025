@@ -15,9 +15,9 @@ extra:
   minimum: 10
 flags:
   - "Securinets{5e55ca04ae7c626c343ef448feddf80ae451c505c014c8897357ef5629c79589}"
-tags:
-  - medium
+#tags:
+#  - medium
 files:
-  - handout/
+  - handout/challenge.zip
 state: visible
 version: "0.1"

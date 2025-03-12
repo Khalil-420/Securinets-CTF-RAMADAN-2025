@@ -15,9 +15,9 @@ extra:
   minimum: 10
 flags:
   - "Securinets{f06204e7fa941196a67fe3114f7f44cda9d66ac26694a2be43847c70279b1c0c}"
-tags:
-  - medium
+#tags:
+#  - medium
 files:
-  - handout/
+  - handout/main
 state: visible
 version: "0.1"

@@ -1,0 +1,22 @@
+name: "EYE"
+author: "cybereagle2001"
+category: misc
+description: |-
+  The eye can't see eveything
+  use your brain XD !
+
+  **author**: "cybereagle2001"
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - Securinets{God_language}
+#tags:
+#  - easy
+files:
+  - handout/chall.jpg
+state: visible
+version: "0.1"

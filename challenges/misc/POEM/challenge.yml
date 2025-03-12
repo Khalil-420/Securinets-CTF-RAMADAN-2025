@@ -1,0 +1,22 @@
+name: "POEM"
+author: "cybereagle2001"
+category: misc
+description: |-
+    Poetry is a lovely thing
+
+
+    **author**: cybereagle2001
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - Securinets{STEGANO_IS_AMAZING}
+#tags:
+#  - easy
+files:
+  - handout/poem.txt
+state: visible
+version: "0.1"

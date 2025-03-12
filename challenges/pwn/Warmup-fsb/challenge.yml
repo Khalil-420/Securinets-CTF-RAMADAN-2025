@@ -16,6 +16,6 @@ flags:
 tags:
   - easy
 files:
-  - handout/
+  - handout/main
 state: visible
 version: "0.1"

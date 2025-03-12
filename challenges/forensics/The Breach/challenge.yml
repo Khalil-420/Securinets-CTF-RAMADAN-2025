@@ -8,9 +8,9 @@ description: |-
 	Logs show scanning, exploitation, and malware communication 
 	As a forensics investigator you need to help us solve the crime ! 
   
-  	nc 51.77.140.155 11003
+  nc 51.77.140.155 11003
   
-  	**author**: cybereagle2001
+  **author**: cybereagle2001
 value: 500
 type: dynamic
 extra:
