@@ -2,6 +2,12 @@
 #include <string.h>
 #include <stdlib.h>
 
+void setup(){
+    setbuf(stdin, 0);
+    setbuf(stdout, 0);
+    setbuf(stderr, 0);
+}
+
 void love_and_water() {
     printf("Two lovers wander down to the shore\n");
     printf("Hand in hand the evening before\n");
@@ -48,20 +54,16 @@ void vuln(char *input) {
     strcpy(buffer, input);
 }
  
-int main(int argc, char *argv[]) {
-    if (argc != 2) {
-        printf("Usage: %s <input_string>\n", argv[0]);
-        return 1;
-    }
- 
+int main() {
+    char input[100];
+    
+    setup(); 
     love_and_water();
     wedding_bed();
     river_sickness();
     river_daughter();
- 
- 
-    vuln(argv[1]);
- 
+    scanf("%100s", input);
+    vuln(input);
     printf("Program finished successfully.\n");
     return 0;
 }
