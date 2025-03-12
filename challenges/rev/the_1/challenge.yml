@@ -1,0 +1,29 @@
+name: "The 1"
+author: "ADAM"
+category: rev
+description: |-
+  A cryptographer designed a secure encryption system, protected by a complex cryptographic mathematical structure. The challenge revolves around a black-box executable that accepts a key.
+
+  He was paranoid about security, embedding some measures to stop reversers if tampered with. Debuggers crash instantly. Static analysis reveals nothing but noise. Traditional cryptanalysis methods lead to dead ends.
+
+  This is not a simple cipher—it requires a good mathematical mind and some arithmetic skills to break. Hidden within its code, there is a way for skilled players to exploit it.
+
+  Can you find it and recover the key?
+
+  Flag Format: Securinets{key}
+
+  **author**: "ADAM"
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - Securinets{8ECD7DD75216CE7B37762C06BF1AA20CD47C5AB842F317A0884D359A033B40288CE5DB0675DB5296737A4B3F8E12F429F6889AE7B76394281DCBA45F918F1BDD}
+#tags:
+#  - easy
+files:
+  - handout/t3.exe
+state: visible
+version: "0.1"

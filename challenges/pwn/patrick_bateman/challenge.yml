@@ -14,10 +14,10 @@ extra:
   decay: 20
   minimum: 10
 flags:
-  - Securinets{H3AP_0VERFL0W_D3TECT3D}
+  - Securinets{U4F_D3TECT3D}
 #tags:
 #  - easy
 files:
-  - handout/challenge.zip
+  - handout/main
 state: visible
 version: "0.1"

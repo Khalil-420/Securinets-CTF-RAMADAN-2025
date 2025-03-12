@@ -17,6 +17,6 @@ flags:
 #tags:
 #  - easy
 files:
-  - handout/handout.zip
+  - handout/challenge.zip
 state: visible
 version: "0.1"
