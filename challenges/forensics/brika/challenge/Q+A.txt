@@ -1,0 +1,22 @@
+what's the compromised host IP@
+10.10.10.102
+List the suspicious DNS (example: DNS1_DNS2_DNS3)
+www.dropox.com_ucdd5d6bc9869417d2bbd7f22955.dl.dropboxusercontent.com_teleportfilmona.online
+which DNS has the most http traffic with the victim
+teleportfilmona.online
+In what file format the data is being exfiltrated
+zip
+what's the IP@ this data is being sent to
+104.21.11.40
+what's the malware family name
+LummaC2
+what's the malware build date (dd-mm-yyyy)
+09-10-2023
+what's the LID(Lumma ID)
+Zbbaau--Лакосте
+what's the OS type and version of the infected system
+Windows 10 (10.0.19045)
+what's the icon visible on the screenshot took from the system 
+Recycle Bin
+what's the md5 hash value of the stealed cookies file
+b0c1133c8e8d4d7c359249d4e3208cb5

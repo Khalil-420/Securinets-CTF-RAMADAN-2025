@@ -1,0 +1,24 @@
+name: "Brika"
+author: "AL1_D0X"
+category: forensics
+description: |-
+  A network capture file (PCAP) has been recovered from a suspicious activity report. Hidden within the captured traffic lies crucial information that could reveal what happened. Your task is to analyze the PCAP, follow the evidence, and extract the flag.
+  Are you up for the challenge?
+  
+  nc 51.77.140.155 11002
+  
+  **author**: AL1_D0X
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - Securinets{Y0u_D3serV3_4_Br1KA}
+#tags:
+#  - easy
+files:
+  - handout/Brika.pcap
+state: visible
+version: "0.1"
