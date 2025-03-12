@@ -1,0 +1,22 @@
+name: "lab2"
+author: "Gremlin"
+category: crypto
+description: |-
+  What point is there if we reuse without inventing.
+  Disregard the rules and reinvent the wheel !
+    
+  **author**: Gremlin
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - Securinets{ad663a14a738233f592439ac8391ba98e6fd9aca}
+#tags:
+#  - easy
+files:
+  - handout/handout.zip
+state: visible
+version: "0.1"

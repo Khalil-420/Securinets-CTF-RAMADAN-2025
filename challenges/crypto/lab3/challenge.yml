@@ -1,0 +1,21 @@
+name: "lab3"
+author: "Gremlin"
+category: crypto
+description: |-
+  I can create a stronger.. BETTER version (or not..?)
+    
+  **author**: Gremlin
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - Securinets{c2c936a799731830eeaa3dea72b5ee3bd3ac8ec7}
+#tags:
+#  - easy
+files:
+  - handout/handout.zip
+state: visible
+version: "0.1"

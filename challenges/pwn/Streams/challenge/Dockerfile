@@ -12,7 +12,7 @@ COPY flag.txt /app/flag.txt
 FROM pwn.red/jail
 
 COPY --from=chroot / /srv
-ENV JAIL_POW=0 JAIL_PORT=1335
+ENV JAIL_POW=0 JAIL_PORT=1339
 
 WORKDIR /srv/app
 RUN chmod +x run

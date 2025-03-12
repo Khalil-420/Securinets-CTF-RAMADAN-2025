@@ -3,6 +3,8 @@ author: "hyzr"
 category: pwn
 description: |-
   A file stream and a dream.
+  
+  nc 51.77.140.155 12002
 
   **author**: hyzr
 value: 500

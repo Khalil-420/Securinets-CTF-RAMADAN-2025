@@ -1,0 +1,21 @@
+name: "lab1"
+author: "Gremlin"
+category: crypto
+description: |-
+  This looks alright... I think..
+    
+  **author**: Gremlin
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - Securinets{68e6cd9bc41a0b026e6e5885958cc1e8aedb8fcb}
+#tags:
+#  - easy
+files:
+  - handout/handout.zip
+state: visible
+version: "0.1"

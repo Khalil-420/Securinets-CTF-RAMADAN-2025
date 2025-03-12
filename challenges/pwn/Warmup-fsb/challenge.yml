@@ -3,8 +3,8 @@ author: "hyzr"
 category: pwn
 description: |-
   Zouz dourat al terrain yalla!
-
-  **author**: M0ud4
+  nc 51.77.140.155 12003
+  **author**: hyzr
 value: 500
 type: dynamic
 extra:
