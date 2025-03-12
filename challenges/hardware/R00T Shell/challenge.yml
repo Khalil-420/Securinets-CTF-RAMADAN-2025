@@ -1,0 +1,22 @@
+name: "R00T Shell"
+author: "HAMZAOUI"
+category: hardware
+description: |-
+  YOU ART ♥
+  Flag format : Securinets{<kernel version>_<Compressed ROM version>}
+  
+  **author**: HAMZAOUI
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - Securinets{2.6.21.5_3.2-r2}
+#tags:
+#  - easy
+files:
+  - tools/tools.rar
+state: visible
+version: "0.1"
