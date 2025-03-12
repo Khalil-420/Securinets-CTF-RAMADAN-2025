@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+
+    <!-- Content Security Policy with Nonce -->
+    <meta http-equiv="Content-Security-Policy" content="
+        script-src 'self' 'nonce-<%= nonce %>' https://cdn.jsdelivr.net/npm/dompurify@3.2.4/dist/purify.min.js;
+        img-src 'self';
+        object-src 'none';
+    ">
+    
+
+    <!-- External Library (DOMPurify) -->
+    <script nonce="<%= nonce %>" src="https://cdn.jsdelivr.net/npm/dompurify@3.2.4/dist/purify.min.js"></script>
+</head>
+<body>
+    <h1>Welcome, <%= username %>!</h1>
+    <p>Your favorite color is: <span style="color:<%= favorite_color %>;"><%= favorite_color %></span></p>
+    <div id="notes">
+        <textarea id="userInput" placeholder="Enter your note"></textarea><br>
+        <button nonce="<%= nonce %>" id="addNoteButton">Add Note</button>
+        <div id="noteContainer"></div>
+    </div>
+
+    <script nonce="<%= nonce %>">
+document.addEventListener('DOMContentLoaded', function() {
+    const addNoteButton = document.getElementById('addNoteButton');
+    
+    addNoteButton.addEventListener('click', addNote);
+});
+
+function addNote() {
+    const urlParams = new URLSearchParams(window.location.search);
+    let note = urlParams.get('note');
+
+    if (note) {
+        if (note.includes("<") || note.includes(">")) {
+            note = DOMPurify.sanitize(note);
+        } else {
+            note = "<%- note %>";
+        }
+    } else {
+        note = document.getElementById('userInput').value;
+        note = DOMPurify.sanitize(note);
+            }
+
+    let noteContainer = document.getElementById('noteContainer');
+    noteContainer.innerHTML = note;
+}
+
+
+    window.onload = function () {
+            if ("<%= note %>".length > 0) {
+            addNote();
+}
+        };
+    </script>
+    <script nonce="<%= nonce %>" src="../public/color.js"></script>
+</body>
+</html>

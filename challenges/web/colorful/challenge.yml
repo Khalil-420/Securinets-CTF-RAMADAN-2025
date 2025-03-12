@@ -1,0 +1,22 @@
+name: "Colorful"
+author: "xhalyl"
+category: web
+description: |-
+  My little brother learned how to code , he made this app and he's happy about it
+  I helped him to make it secure
+
+  **author**: "xhalyl"
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - Securinets{__BASE_URI_FOR_THE_W1N}
+#tags:
+#  - easy
+files:
+  - handout/challenge.zip
+state: visible
+version: "0.1"

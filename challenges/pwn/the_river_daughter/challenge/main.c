@@ -40,29 +40,28 @@ void river_daughter() {
 
 void secret_function() {
     printf("Thank you\n");
-    system("/bin/sh");  
+    system("/bin/sh");
 }
 
 void vuln(char *input) {
     char buffer[64];
-    strcpy(buffer, input);  
+    strcpy(buffer, input);
 }
-
+ 
 int main(int argc, char *argv[]) {
     if (argc != 2) {
         printf("Usage: %s <input_string>\n", argv[0]);
         return 1;
     }
-
+ 
     love_and_water();
     wedding_bed();
     river_sickness();
     river_daughter();
-
-  
+ 
+ 
     vuln(argv[1]);
-
+ 
     printf("Program finished successfully.\n");
     return 0;
 }
-
