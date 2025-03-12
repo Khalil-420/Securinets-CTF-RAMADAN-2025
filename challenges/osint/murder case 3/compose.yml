@@ -1,0 +1,10 @@
+version: '3'
+services:
+  challenge:
+    container_name: murder_case
+    restart: unless-stopped
+    build:
+      context: ./challenge
+      dockerfile: Dockerfile
+    ports:
+      - "18000:5000"

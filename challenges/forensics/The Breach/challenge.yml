@@ -2,11 +2,11 @@
 author: "cybereagle2001"
 category: forensics
 description: |-
-	As a cybersecurity analyst at IMEDRA SPHERE, 
-	you’ve been alerted to unusual network activity. 
-	Some machines inside the company network has been compromised.
-	Logs show scanning, exploitation, and malware communication 
-	As a forensics investigator you need to help us solve the crime ! 
+  As a cybersecurity analyst at IMEDRA SPHERE, 
+  you’ve been alerted to unusual network activity. 
+  Some machines inside the company network has been compromised.
+  Logs show scanning, exploitation, and malware communication 
+  As a forensics investigator you need to help us solve the crime ! 
   
   nc 51.77.140.155 11003
   

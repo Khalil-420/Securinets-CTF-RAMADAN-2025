@@ -16,7 +16,7 @@ flags:
   - Securinets{Sup1r_Qub1t}
 #tags:
 #  - easy
- files:
+files:
    - handout/info.txt
 state: visible
 version: "0.1"

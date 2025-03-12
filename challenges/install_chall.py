@@ -1,6 +1,6 @@
 import os,glob
 
-categories = ["web","forensics","misc","osint","crypto","pwn"]
+categories = ["web","forensics","misc","osint","crypto","pwn","rev","hardware"]
 
 for category in categories:
     if os.path.exists(f"./{category}"):
